@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;MSProj-3C-Spring_Cloud-Dummy&apos;" deleteContents="true" description="Delete resource &apos;MSProj-3C-Spring_Cloud-Dummy&apos;" element1="/MSProj-3C-Spring_Cloud-Dummy" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1588261081782"/>
+</session>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Spring_Boot-Apache-Camel"/>
+<aop-project name="Spring_Cloud-ZUUL-API-Gateway-1"/>
+<aop-project name="MSProj-3P-Spring_Cloud-_Vendor_Service-FiegnClient"/>
+<aop-project name="MSProj-3C-Spring_Cloud-_Contract_Service-FiegnClient"/>
+<aop-project name="MSProj-5P-Spring_Cloud-Hystrix-With-Dashboard-Test"/>
+<aop-project name="MSProj-1C-Spring_Cloud-Eureka-Payment_Service"/>
+<aop-project name="Spring_Boot-AMQ-Using-Apache-Kafka"/>
+<aop-project name="Spring_Cloud-EurekaServer-1"/>
+<aop-project name="MSProj-4P-Spring_Cloud-Config_Server-With-Refresh_Scope"/>
+<aop-project name="MSProj-2C-Spring_Cloud-Fedback_Service-LoadBalancerClient"/>
+<aop-project name="Spring_Cloud-Native-Config-Server"/>
+<aop-project name="Spring_Boot-Angular-Integration"/>
+<aop-project name="Spring_Cloud-ZUUL-API-Gateway-2-With-Filters"/>
+<aop-project name="MSProj-1P-Spring_Cloud-Eureka-Order_Service"/>
+<aop-project name="MSProj-2p-Spring_Cloud-Customer_Service-LoadBalancerClient"/>
+<aop-project name="Spring_Cloud-External-Config-Server"/>
+</aop-reference-model>
