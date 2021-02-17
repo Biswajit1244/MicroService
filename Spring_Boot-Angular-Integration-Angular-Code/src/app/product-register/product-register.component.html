@@ -1,0 +1,50 @@
+<h3 class="bg-secondary align-center text-white">Product Register Page</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <form action="#" (ngSubmit)="saveProdData()" method="POST">
+            <div class="row">
+                <div class="col-3">
+                   <label for="prodCode">CODE</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" [(ngModel)]="prod.prodCode" id="prodCode" name="prodCode" class="form-control">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                   <label for="prodPrice">PRICE</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" [(ngModel)]="prod.prodPrice" id="prodPrice" name="prodPrice" class="form-control">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                   <label for="prodVendor">VENDOR</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" [(ngModel)]="prod.prodVendor" id="prodVendor" name="prodVendor" class="form-control">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                   <label for="prodColor">COLOR</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" [(ngModel)]="prod.prodColor" id="prodColor" name="prodColor" class="form-control">
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <input type="submit" value="REGISTER" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+{{message}}
+  

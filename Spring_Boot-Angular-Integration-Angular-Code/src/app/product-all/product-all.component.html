@@ -1,0 +1,23 @@
+<h3>PRODUCT DATA TABLE</h3>
+
+<div class="container">
+    <table class="table table-hover table-striped">
+        <tr class="bg-primary text-white">
+            <th>ID</th>
+            <th>CODE</th>
+            <th>VENDOR</th>
+            <th>COLOR</th>
+            <th>PRICE</th>
+            <th>OPERATION</th>
+        </tr>
+        <tr *ngFor="let p of products">
+            <td>{{p.prodId}}</td>
+            <td>{{p.prodCode}}</td>
+            <td>{{p.prodVendor}}</td>
+            <td>{{p.prodColor}}</td>
+            <td>{{p.prodPrice}}</td>
+            <td><button class="btn btn-danger" (click)="deleteOneProduct(p.prodId)">DELETE</button> &nbsp;
+            <button class="btn btn-info" (click)="editeOneProduct(p.prodId)">EDIT</button></td>
+        </tr>
+    </table>   
+</div>
